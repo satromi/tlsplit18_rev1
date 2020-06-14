@@ -48,7 +48,7 @@ Cherry MXキーが使えるよう、オリジナルのTRONキーボードLサイ
 ~~~
 
 ## ビルドガイド
-ビルドガイドは、[buildguide.md](https://github.com/satromi/tlsplit18_rev0/blob/master/buildguide.md) を参照してください。
+ビルドガイドは、[buildguide.md](https://github.com/satromi/tlsplit18_rev1/blob/master/buildguide.md) を参照してください。
 
 ## Rev0との違い
 Rev0のプリント基板を修正したバージョンです。
