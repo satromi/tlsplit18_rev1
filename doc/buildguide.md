@@ -68,9 +68,18 @@ PCBから外した状態で、部品（USBコネクタなど）が実装され�
 キースイッチをアクリルトッププレートの上からアクリル・PCBにはめ込み、実装します。ここでキーが浮かないよう、しっかりトッププレートにはめ込んで、半田付けしてください。
 
 ## ファームウェア書き込み
-QMK Toolboxでhexファイルを書き込んでください。
-[tlsplit18_default.hex](https://github.com/satromi/tlsplit18_rev0/blob/master/hex/tlsplit18_default.hex) をダウンロードして、QMK Toolboxで書き込みます。
-左右それぞれ書き込みが必要です。
+[QMK Toolbox](https://github.com/qmk/qmk_toolbox) で、ファームウェア（hexファイル）をProMicroに書き込む必要があります。
+
+[QMK Toolbox](https://github.com/qmk/qmk_toolbox) のインストール・使い方については、サリチル酸さんが書かれた[（初心者編）自作キーボードにファームウェアを書き込む](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox) が分かりやすいです。
+
+TL Split Keyboard 18mmmと16mmはファームウェアが共通なので、 [tlsplit18_default.hex](https://github.com/satromi/tlsplit18_rev1/blob/master/tlsplit18_default.hex) をダウンロードしてQMK Toolboxで書き込みます。
+
+ファームウェアは、左右のProMicroそれぞれに書き込む必要があります。
+
+他のキーマップに変更したい場合は、VIA対応ファームウェアも準備しています。[tlsplit18_via.hex](https://github.com/satromi/tlsplit18_rev1/blob/master/tlsplit18_via.hex) をダウンロードして、QMK Toolboxで書き込みます。
+
+VIA対応ファームウェアの場合、Webサイトからキーマップを変更できる [REMAP](https://remap-keys.app/)  も利用できます。
+[REMAPのTL Split Keyboardページ](https://remap-keys.app/catalog/AqZy7RsTgu0kxObJxxYr)  から書き換えてみてください。
 
 ## 動作確認
 
