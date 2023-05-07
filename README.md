@@ -9,7 +9,9 @@ Cherry MXキーが使えるよう、オリジナルのTRONキーボードLサイ
 入門しやすさを重視し、QWERTY配列としています。
 本来あるべき、DVORAK配列やTRON配列については、DVORAK配列を別配列で提供しています。
 TEAMSキーは、LSFT + LCTL + KC_MでTeamsのMuteにしています。
+
 - QWERTY配列版
+
 -- QWERTY配列面
 
 ~~~
@@ -51,6 +53,7 @@ TEAMSキーは、LSFT + LCTL + KC_MでTeamsのMuteにしています。
 ~~~
 
 - DVORAK配列版
+
 -- DVORAK配列面
 
 ~~~
@@ -69,6 +72,7 @@ TEAMSキーは、LSFT + LCTL + KC_MでTeamsのMuteにしています。
         | HOME | PGDN |  END |                                                        |  LFT |  DWN |  RGT |
         `--------------------'                                                        `--------------------'
 ~~~
+
 -- ファンクション面
 
 QWERTY配列版ファンクション面と同様。
